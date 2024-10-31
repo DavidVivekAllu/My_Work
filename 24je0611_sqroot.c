@@ -14,15 +14,15 @@ int main ()
 			printf("The square root of given number : %d ", count);
 			break;
 		}
+		
 		else
 		{
 			if((count*count)>N)
-		{
-		
-			printf("The nearest square root : %d", count-1);
-			break;
+				{
+				printf("The nearest square root : %d", count-1);
+				break;
+				}
 		}
-	}
 		count = count+1;
 	}
 	return 0;
