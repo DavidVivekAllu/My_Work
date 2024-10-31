@@ -9,10 +9,14 @@ int main ()
 	scanf("%d", &n);
 	
 	if (n == 1)
-	printf("fibonacci sequence : %d", t1);
+	{
+		printf("fibonacci sequence : %d", t1);
+	}
 	
 	if (n == 2)
-	printf("fibonacci sequence : %d, %d", t1, t2);
+	{
+		printf("fibonacci sequence : %d, %d", t1, t2);
+	}
 	
 	else if (n > 2)
 	{
@@ -27,7 +31,9 @@ int main ()
 	}
 	
 	else 
-	printf("Give a valid input for number of terms!!!");
+	{
+		printf("Give a valid input for number of terms!!!");
+	}
 	
 	return 0;
 }
